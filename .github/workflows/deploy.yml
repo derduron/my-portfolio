@@ -1,0 +1,55 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+
+      - name: Setup Go (Golang)
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+
+      - name: Setup Hugo Extended
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.161.1' 
+          extended: true
+
+
+      - name: Install NPM Dependencies
+        run: |
+          hugo mod npm pack
+          npm install
+
+
+      - name: Build Hugo Static Site
+        run: |
+          hugo mod tidy
+          hugo --minify
+
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public 

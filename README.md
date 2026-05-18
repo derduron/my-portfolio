@@ -1,41 +1,39 @@
-# toha-example-site
+# IoT Fullstack Engineer Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b1b93b02-f278-440b-ae1b-304e9f4c4ab5/deploy-status)](https://app.netlify.com/sites/toha/deploys) [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhugo-toha%2Fhugo-toha.github.io%2Fbadge%3Fref%3Dmain&style=flat)](https://actions-badge.atrox.dev/hugo-toha/hugo-toha.github.io/goto?ref=main) ![Repository Size](https://img.shields.io/github/repo-size/hugo-themes/toha-example-site) ![Contributor](https://img.shields.io/github/contributors/hugo-themes/toha-example-site) ![Last Commit](https://img.shields.io/github/last-commit/hugo-themes/toha-example-site) ![License](https://img.shields.io/github/license/hugo-themes/toha-example-site) ![Open Issues](https://img.shields.io/github/issues/hugo-themes/toha-example-site?color=important) ![Open Pull Requests](https://img.shields.io/github/issues-pr/hugo-themes/toha-example-site?color=yellowgreen) ![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fhugo-themes.github.io/toha-example-site%2F) [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io/b7cb60ab/hugo-themes.github.io/toha-example-site)
+Репозиторий содержит исходный код моего персонального сайта-портфолио, построенного на генераторе статических сайтов **Hugo** с использованием темы **Toha**.
 
-An example hugo static site with Toha theme.
+## 🌐 Живая версия сайта
+Вы можете посмотреть мое портфолио вживую по ссылке:
+ **[https://derduron.github.io/my-portfolio](https://derduron.github.io/my-portfolio)**
 
-Attributions:
+## 🛠 Технологический стек проекта
+* **Генератор:** Hugo (Extended) v0.161+
+* **Тема шаблона:** Toha v4 (Hugo Modules)
+* **Языковое окружение:** Go (Golang), Node.js (для сборки npm-зависимостей стилей)
 
-- <a href='https://www.freepik.com/vectors/business'>Business vector created by studiogstock - www.freepik.com</a>
+## 💻 Локальное развертывание для разработки
 
-## Requirements
+Если вам необходимо запустить проект локально для внесения правок, выполните следующие команды:
 
-We use [jdx/mise](https://github.com/jdx/mise) to manage dependencies. Mise takes care of installing `hugo`, `go`, `nodes` and other tools to appropriate versions. Please, install it following the instruction from [here](https://mise.jdx.dev/getting-started.html).
-
-## Running Locally
-
-- Install dependencies
-
-```
-mise install
-```
-
-- Run hugo server
-
-```
-mise run server
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/derduron/my-portfolio
+cd my-portfolio
 ```
 
-## Updating theme
-
-- To update theme to latest release, run:
-
-```
-mise run update
+2. Инициализируйте и скачайте модули Hugo/Go:
+```bash
+hugo mod tidy
 ```
 
-- To update theme to latest commit from `main` brnach, run:
+3. Установите зависимости шрифтов и иконок темы:
+```bash
+hugo mod npm pack
+npm install
+```
 
+4. Запустите локальный сервер разработки:
+```bash
+hugo server -w
 ```
-mise run update-to-main
-```
+Сайт станет доступен по адресу: `http://localhost:1313/my-portfolio/`

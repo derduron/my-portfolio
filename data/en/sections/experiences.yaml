@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Experiences
+  name: Development Phases
   id: experiences
   enable: true
   weight: 3
@@ -8,66 +8,80 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true 
 
-# Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+  # --- PHASE 1 ---
+  - company:
+      name: "Phase 1 (Project Kickoff)"
+    positions:
+      - designation: "Requirements Analysis & Technical Specs (TRS)"
+        responsibilities:
+          - "Gathering and formalizing client requirements for the target IoT product."
+          - "Analyzing electronic component markets considering current global stock availability."
+          - "Goal: Fixing system architecture, selecting core MCUs/sensors, and drafting the preliminary BOM."
+          - "Result: Approved technical specification document, minimizing late-stage hardware redesign risks."
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  # --- PHASE 2 ---
+  - company:
+      name: "Phase 2 (EDA Engineering)"
+    positions:
+      - designation: "Schematic Capture & PCB Layout (Hardware)"
+        responsibilities:
+          - "Designing electrical schematics and routing multi-layer PCBs in Altium Designer / KiCad."
+          - "Managing high-speed constraints, impedance control, and power distribution network (PDN) integrity."
+          - "Goal: Engineering reliable power stages, interface protection (ESD), and optimal space allocation."
+          - "Result: Finalized 3D board models and complete production-ready file package (Gerbers, BOM, Pick&Place)."
 
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+  # --- PHASE 3 ---
+  - company:
+      name: "Phase 3 (CAD Prototyping)"
+    positions:
+      - designation: "Enclosure Modeling & 3D Printing (Mechanical)"
+        responsibilities:
+          - "Importing Altium STEP models into Autodesk Fusion 360 / FreeCAD for precise physical integration."
+          - "Parametric design of custom enclosures, focusing on snap-fits, mounting bosses, buttons, and light pipes."
+          - "Goal: Validating form-factor ergonomics, tolerances, and mechanical fit before expensive mold tooling."
+          - "Result: FDM/SLA 3D-printed enclosure mockups for hands-on, real-world evaluation."
 
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+  # --- PHASE 4 ---
+  - company:
+      name: "Phase 4 (MCU Programming)"
+    positions:
+      - designation: "Embedded Firmware Engineering (Firmware)"
+        responsibilities:
+          - "Developing low-level peripheral drivers in C/C++ (STM32 HAL/LL, ESP-IDF, nRF Connect SDK)."
+          - "Deploying real-time operating systems (FreeRTOS / Zephyr) for critical task scheduling and thread safety."
+          - "Goal: Coding core business logic, ultra-low power states, and wireless stacks (Wi-Fi, BLE, MQTT)."
+          - "Result: Stable, highly optimized, and maintainable modular firmware."
+
+  # --- PHASE 5 ---
+  - company:
+      name: "Phase 5 (Cloud & Web)"
+    positions:
+      - designation: "Cloud Infrastructure & Web Platform (Fullstack)"
+        responsibilities:
+          - "Building scalable backends (Node.js / TypeScript) to ingest and parse incoming MQTT telemetry streams."
+          - "Creating responsive frontends with React for live telemetry tracking, data rendering, and remote setup."
+          - "Goal: Establishing a seamless End-to-End connection between physical hardware and the cloud web app."
+          - "Result: Fully operational remote monitoring platform accessible securely from any browser."
+
+  # --- PHASE 6 ---
+  - company:
+      name: "Phase 6 (Lab Testing)"
+    positions:
+      - designation: "Assembly, Integration & Hardware Debugging"
+        responsibilities:
+          - "Hand-soldering and assembling the first physical prototype batches in a well-equipped laboratory."
+          - "Stress-testing the entire ecosystem (Hardware + Firmware + Cloud) under simulated field workloads."
+          - "Goal: Tracking down signal bugs using oscilloscopes/logic analyzers and resolving firmware memory leaks."
+          - "Result: A fully verified, field-tested physical prototype of the working electronic device."
+
+  # --- PHASE 7 ---
+  - company:
+      name: "Phase 7 (Final Release)"
+    positions:
+      - designation: "Design for Manufacturing & Production Prep (DFM)"
+        responsibilities:
+          - "Optimizing PCB layouts and creating alternate BOM lists to secure against global part shortages."
+          - "Preparing assembly blueprints, test fixtures, and guidelines for contract manufacturing assembly."
+          - "Goal: Minimizing assembly failure rates and decreasing per-unit manufacturing cost for mass production."
+          - "Result: The 'Golden Sample' of the product and complete factory-ready package release."

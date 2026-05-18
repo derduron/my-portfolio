@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Technologies
   id: skills
   enable: true
   weight: 2
@@ -13,59 +13,65 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+- name: Hardware
+  filter: "Hardware"
+- name: Mechanical
+  filter: "Mechanical"
+- name: Firmware
+  filter: "Firmware"
+- name: Web
+  filter: "Web"
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: "KiCad EDA"
+    logo: "/images/sections/skills/kicad.png"
+    categories: [ "Hardware"]
+    summary: "Open-source schematic design and board routing. Project porting and hardware cost optimization for seamless manufacturing."
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+  - name: "Altium Designer"
+    logo: "/images/sections/skills/altium.png"
+    categories: [ "Hardware"]
+    summary: "Schematic capture, multi-layer high-density PCB layout (HDI), component library management, and DFM-compliant manufacturing file generation (Gerber, BOM, Pick&Place)."
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+  - name: "Autodesk Fusion 360"
+    logo: "/images/sections/skills/fusion.png"
+    categories: [ "Mechanical"]
+    summary: "Industrial enclosure design for electronics. Integrating Altium STEP models, modeling mechanical tolerances, snap-fits, and light pipes."
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+  - name: "FreeCAD"
+    logo: "/images/sections/skills/freecad.png"
+    categories: [ "Mechanical"]
+    summary: "Parametric open-source 3D modeling for mechanical components and enclosures. Creating solid models and preparing drawings under ISO standards."
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+  - name: "STM32 Ecosystem"
+    logo: "/images/sections/skills/stmicroelectronics.png"
+    categories: [ "Firmware"]
+    summary: "C/C++ firmware engineering utilizing STM32CubeMX and HAL/LL APIs. Peripheral configuration (DMA, ADC, TIM) and hardware power management."
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: "nRF Controllers (Nordic)"
+    logo: "/images/sections/skills/nordic.png"
+    categories: [ "Firmware"]
+    summary: "Developing ultra-low power wireless applications on nRF52/nRF53 series. Implementing BLE (Bluetooth Low Energy) stacks and engineering with nRF Connect SDK (Zephyr RTOS)."
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: "ESP32 & Wireless"
+    logo: "/images/sections/skills/espressif.png"
+    categories: [ "Firmware"]
+    summary: "Developing connected devices using ESP-IDF and Arduino IDE. Configuring Wi-Fi/BLE stacks and integrating MQTT for telemetry streaming."
+
+  - name: "Node.js & TypeScript"
+    logo: "/images/sections/skills/nodedotjs.png"
+    categories: [ "Web"]
+    summary: "Developing robust cloud backends for IoT platforms. Handling high-throughput MQTT broker data streams and designing scalable REST APIs."
+
+  - name: "React / JavaScript"
+    logo: "/images/sections/skills/react.png"
+    categories: [ "Web"]
+    summary: "Building responsive web dashboards for real-time telemetry visualization, chart rendering, and remote device configuration."
+
+  - name: "3D Printing & Prototyping"
+    logo: "/images/sections/skills/3dprint.png"
+    categories: [ "Mechanical"]
+    summary: "FDM/SLA rapid prototyping for physical form-factor validation and mechanical testing before injection molding."
+
+

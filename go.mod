@@ -1,9 +1,5 @@
-module github.com/hugo-themes/toha-example-site
+module github.com/derduron/my-portfolio
 
-go 1.25
+go 1.26.3
 
-// replace(
-//     github.com/hugo-toha/toha/v4 => ../toha
-// )
-
-require github.com/hugo-toha/toha/v4 v4.13.1-0.20260114145901-84093514293e // indirect
+require github.com/hugo-toha/toha/v4 v4.15.0 // indirect

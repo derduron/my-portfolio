@@ -1,0 +1,34 @@
+
+section:
+  name: О себе
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+summary: "<style>.about-section .row { align-items: center !important; }</style>Я занимаюсь сквозной разработкой IoT-продуктов и электронных устройств под ключ. Моя главная фишка — мультидисциплинарность: я объединяю проектирование электроники (Hardware), программирование микроконтроллеров (Firmware), промышленный дизайн корпусов (Mechanical) и создание веб-интерфейсов для мониторинга (Fullstack). Имея за плечами сильный бэкграунд в обслуживании и автоматизации промышленного оборудования, я проектирую устройства с учетом реальных условий эксплуатации, помехозащищенности и требований к серийному производству."
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "derduron@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/derduron"
+
+badges:
+  - type: soft-skill-indicator
+    name: "Системное инженерное мышление"
+    percentage: 95
+    color: blue
+
+  - type: soft-skill-indicator
+    name: "Управление рисками в Hardware (DFM)"
+    percentage: 90
+    color: orange
+
+  - type: soft-skill-indicator
+    name: "Автономность и ведение проектов под ключ"
+    percentage: 95
+    color: green

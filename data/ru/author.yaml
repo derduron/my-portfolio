@@ -1,0 +1,16 @@
+name: "Алексей Г."
+nickname: "Алексей"
+greeting: "Привет, я"
+image: "images/avatar.jpeg"
+
+contactInfo:
+  email: "derduron@gmail.com"
+  github: derduron
+
+
+summary:
+  - Разработчик электронных схем
+  - Разработчик встроенного ПО
+  - Fullstack IoT разработчик
+  - Проектирую устройства от идеи до корпуса
+  - Люблю превращать идеи в железо

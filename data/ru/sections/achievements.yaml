@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Галерея разработки и лаборатория
+  id: achievements
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+achievements:
+  # --- КАРТОЧКА 1 ---
+  - title: "Сквозное проектирование электроники"
+    image: "/images/sections/achievements/hardware-design.png"
+    summary: "Разработка от принципиальных электрических схем до трассировки многослойных плат в Altium Designer/KiCad с полной 3D-верификацией."
+
+  # --- КАРТОЧКА 2 ---
+  - title: "Сборка прототипов"
+    image: "/images/sections/achievements/pcb-assembly.png"
+    summary: "Прецизионный ручной монтаж SMD-компонентов под микроскопом для сборки и проверки первых функциональных образцов."
+
+  # --- КАРТОЧКА 3 (ОБЪЕДИНЕННАЯ) ---
+  - title: "Лаборатория и отладка"
+    image: "/images/sections/achievements/lab-equipment.png" # Оставьте картинку с осциллографом/анализатором
+    summary: "Тестирование прошивок на отладочных платах (STM32, ESP32, nRF). Анализ шин данных (I2C, SPI, UART, CAN) осциллографом и логическим анализатором."
+
+  # --- КАРТОЧКА 4 ---
+  - title: "CAD-моделирование и дизайн"
+    image: "/images/sections/achievements/cad-enclosure.png"
+    summary: "Параметрическое проектирование корпусов во Fusion 360/FreeCAD под готовую плату с последующей FDM/SLA 3D-печатью."

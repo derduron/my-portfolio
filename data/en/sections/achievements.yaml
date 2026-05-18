@@ -1,24 +1,30 @@
 # section information
 section:
-  name: Achievements
+  name: R&D Gallery & Lab Equipment
   id: achievements
   enable: true
-  weight: 10
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
-# Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+  # --- CARD 1 ---
+  - title: "Full-Cycle Electronics Engineering"
+    image: "/images/sections/achievements/hardware-design.png"
+    summary: "Development from schematic capture to multi-layer PCB layout in Altium Designer/KiCad with full 3D verification."
+
+  # --- CARD 2 ---
+  - title: "Prototype Assembly"
+    image: "/images/sections/achievements/pcb-assembly.png"
+    summary: "Precision hand-soldering of SMD components under a microscope to build and verify initial engineering samples."
+
+  # --- CARD 3 (MERGED) ---
+  - title: "Lab & Hardware Debugging"
+    image: "/images/sections/achievements/lab-equipment.png"
+    summary: "Testing firmware on evaluation boards (STM32, ESP32, nRF). Analyzing data buses (I2C, SPI, UART, CAN) via oscilloscope and logic analyzer."
+
+  # --- CARD 4 ---
+  - title: "CAD Modeling & Product Design"
+    image: "/images/sections/achievements/cad-enclosure.png"
+    summary: "Parametric enclosure engineering in Fusion 360/FreeCAD tailored to custom PCBs, validated by FDM/SLA 3D printing."

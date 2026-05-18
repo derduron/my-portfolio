@@ -1,9 +1,9 @@
 # Copyright Notice
-copyright: © 2026 Alex H. (derduron). All rights reserved..
+copyright: © 2026 Алексей Г. (derduron). Все права защищены..
 
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Electronics & IoT Development | Alex H. derduron.
+description: Разработка электроники и IoT | Алексей Г. derduron.
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -18,8 +18,8 @@ description: Electronics & IoT Development | Alex H. derduron.
 
 # Specify OpenGraph Headers
 openGraph:
-  title: Electronics & IoT R&D
+  title: Разработка электроники и IoT
   type: website
-  description: Electronics & IoT Development | Alex H. derduron.
+  description: Разработка электроники и IoT | Алексей Г. derduron.
   image: images/avatar.png
   url: https://derduron.github.io/my-portfolio/

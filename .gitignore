@@ -1,4 +1,25 @@
-resources/*
-node_modules/*
-public/*
+# Hugo default output
+public/
+resources/
+.hugo_build.lock
+
+# Go modules cache
+bin/
+pkg/
+
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
 .vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

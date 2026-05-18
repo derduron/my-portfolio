@@ -1,0 +1,83 @@
+# section information
+section:
+  name: Технологии
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Hardware
+  filter: "Hardware"
+- name: Mechanical
+  filter: "Mechanical"
+- name: Firmware
+  filter: "Firmware"
+- name: Web
+  filter: "Web"
+
+
+
+skills:
+
+
+  - name: "KiCad EDA"
+    logo: "/images/sections/skills/kicad.png"
+    categories: [ "Hardware"]
+    summary: "Разработка схем и трассировка плат в open-source среде. Портирование проектов, адаптация под требования локальных производств."
+
+  - name: "Altium Designer"
+    logo: "/images/sections/skills/altium.png"
+    categories: [ "Hardware"]
+    summary: "Проектирование принципиальных схем, трассировка многослойных печатных плат высокой плотности (HDI), ведение библиотек компонентов, подготовка производственных файлов (Gerber, BOM, Pick&Place)."
+
+
+  - name: "Autodesk Fusion 360"
+    logo: "/images/sections/skills/fusion.png"
+    categories: [ "Mechanical"]
+    summary: "Промышленный дизайн корпусов для РЭА. Интеграция STEP-моделей печатных плат из Altium, моделирование зазоров, крепежных элементов, кнопок и световодов."
+
+  - name: "FreeCAD"
+    logo: "/images/sections/skills/freecad.png"
+    categories: [ "Mechanical"]
+    summary: "Параметрическое 3D-моделирование деталей и корпусов в open-source среде. Создание твердотельных моделей и подготовка чертежей по стандартам ГОСТ/ISO."
+
+
+
+  - name: "STM32 Ecosystem"
+    logo: "/images/sections/skills/stmicroelectronics.png"
+    categories: [ "Firmware"]
+    summary: "Программирование микроконтроллеров на C/C++ с использованием STM32CubeMX и библиотек HAL/LL. Настройка периферии (DMA, ADC, TIM), оптимизация энергопотребления."
+
+  - name: "nRF Controllers (Nordic)"
+    logo: "/images/sections/skills/nordic.png"
+    categories: [ "Firmware"]
+    summary: "Разработка энергоэффективных систем со сверхнизким потреблением на базе чипов nRF52/nRF53. Программирование стека BLE (Bluetooth Low Energy) и работа с nRF Connect SDK (Zephyr RTOS)."
+
+  - name: "ESP32 & Wireless"
+    logo: "/images/sections/skills/espressif.png"
+    categories: [ "Firmware"]
+    summary: "Разработка беспроводных систем связи на базе ESP-IDF и Arduino IDE. Настройка Wi-Fi, BLE, интеграция стека MQTT для передачи телеметрии."
+
+
+  - name: "Node.js & TypeScript"
+    logo: "/images/sections/skills/nodedotjs.png"
+    categories: [ "Web"]
+    summary: "Разработка серверной части IoT-платформ. Обработка данных от MQTT-брокеров, создание масштабируемых REST API для взаимодействия с устройствами."
+
+  - name: "React / JavaScript"
+    logo: "/images/sections/skills/react.png"
+    categories: [ "Web"]
+    summary: "Создание веб-интерфейсов и интерактивных дашбордов для мониторинга параметров, визуализации графиков телеметрии и управления устройствами в реальном времени."
+
+  - name: "3D Printing & Prototyping"
+    logo: "/images/sections/skills/3dprint.png"
+    categories: [ "Mechanical"]
+    summary: "Вывод прототипов на FDM/SLA принтеры для проверки эргономики и собираемости устройств перед запуском пресс-форм."
+
