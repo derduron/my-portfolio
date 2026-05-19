@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 
-summary: "<style>.about-section .row { align-items: center !important; }</style>I am an End-to-End IoT and Hardware Engineer specializing in turning complex product concepts into fully functional, production-ready devices. My unique edge lies in cross-disciplinary expertise: I bridge the gap between physical electronics (multi-layer PCB design in Altium/KiCad), embedded software (STM32/ESP32 firmware), mechanical design (Fusion 360 enclosures), and modern cloud web interfaces (TypeScript/Node.js telemetry dashboards). With a solid background in industrial automation and equipment maintenance, I design hardware optimized for noise immunity, cost-efficiency, and seamless manufacturing scaling." 
+summary: "<style>.about-section .row { align-items: center !important; }</style>I specialize in end-to-end development of electronic devices and customized web applications. My expertise spans hardware design (PCB layout), embedded systems (firmware development), mechanical engineering (enclosure design), and fullstack web platforms to bridge physical hardware and software into a seamless IoT ecosystem. With a solid background in industrial automation and equipment maintenance, I design devices tailored for harsh operational environments, noise immunity, and strict Design for Manufacturing (DFM) requirements. I am ready to lead the complete technical implementation of your product from initial concept to deployment-ready production." 
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
