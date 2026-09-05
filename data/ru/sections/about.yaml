@@ -17,8 +17,8 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/derduron"
 
-- name: URL
-  icon: "fab fa-url"
+- name: Website
+  icon: "fas fa-globe"
   url: "https://hilogic.dev"
 
 
