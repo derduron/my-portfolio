@@ -17,6 +17,11 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/derduron"
 
+- name: URL
+  icon: "fab fa-url"
+  url: "https://hilogic.dev"
+
+
 badges:
   - type: soft-skill-indicator
     name: "Системное инженерное мышление"
